@@ -1,0 +1,102 @@
+.header {
+  max-width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #24292FFF;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-inner-box {
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 40px;
+  height: 40px;
+}
+
+.header-input {
+  width: 280px;
+  height: 30px;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.header-input:focus {
+  width: 500px;
+}
+
+.header-inner-list {
+  width: 366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.header-inner-item {
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+}
+
+.bell {
+  width: 19px;
+  height: 19px;
+  background-color: transparent;
+  filter: invert(89%) sepia(17%) saturate(127%) hue-rotate(175deg)
+    brightness(106%) contrast(97%);
+}
+
+.img-plus {
+  background-color: transparent;
+  filter: invert(89%) sepia(17%) saturate(127%) hue-rotate(175deg)
+    brightness(106%) contrast(97%);
+}
+
+.navbar-form {
+  position: relative;
+}
+
+.navbar-form-img {
+  margin-top: 7px;
+  margin-left: 7px;
+  position: absolute;
+}
+
+.navbar-from-input {
+  width: 150px;
+  padding-left: 25px;
+  border-radius: 6px;
+}
+
+.nav-list {
+  width: 200px;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar-line {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+

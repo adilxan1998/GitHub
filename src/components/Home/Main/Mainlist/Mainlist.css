@@ -1,0 +1,39 @@
+.main-list-wrapper {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.main-list {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;  
+  margin-left: 100px;
+}
+
+.main-list-item-box {
+  display: flex;
+  align-items: center;
+}
+
+.main-list-img {
+  width: 20px;
+  height: 20px;
+}
+
+.main-list-text {
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.main-list-line {
+  margin: 0;
+  padding: 0;
+}
+
+
